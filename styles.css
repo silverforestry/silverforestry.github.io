@@ -1,0 +1,162 @@
+/* fonts */
+body {
+    margin: 0;
+    background-color: #fdffd3;
+}
+
+.home-heading {
+    margin: 0;
+    background-color: #395b63;
+    color: #fdffd3;
+    min-height: 100vh;
+    padding: 0px;
+}
+
+h1 {
+    font-family: "Crystal Radio Kit", Verdana, Tahoma;
+    margin: 0;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+p {
+    margin: 0;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+@font-face {
+    font-family: "Crystal Radio Kit";
+    src: url("fonts/Crystal\ Radio\ Kit.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Billo";
+    src: url("fonts/BILLO___.TTF") format("truetype");
+}
+
+@font-face {
+    font-family: "Spacetime";
+    src: url("fonts/spacetime-regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "The Augusta";
+    src: url("fonts/The\ Augusta.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Cursive";
+    src: url("fonts/cursive.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Jocky Starline";
+    src: url("fonts/Jocky\ Starline.ttf") format("truetype");
+}
+
+/* font families */
+
+.billo { 
+    font-family: "Billo", Verdana, Tahoma;
+}
+
+.crystal-radio-kit {
+    font-family: "Crystal Radio Kit", Times, Serif;
+}
+
+.spacetime {
+    font-family: "Spacetime", Times, Serif;
+}
+
+.augusta {
+    font-family: "The Augusta", Verdana, Tahoma;
+}
+
+.cursive {
+    font-family: "Cursive", Times, Serif;
+}
+
+.starline {
+    font-family: "Jocky Starline", Verdana, Tahomas;
+}
+
+/* basic header with shadow and some padding */
+.navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #598c98;
+    padding: 20px 10px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.203);
+}
+
+
+/* Style the header links */
+.navbar a {
+    float: left;
+    color: #fdffd3;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .navbar a.logo {
+    font-family: "The Augusta", Verdana, Tahoma;
+    font-size: 40px;
+    font-weight: normal;
+    color: #fdffd3;
+  }
+  
+  /* Change the background color on mouse-over */
+  .navbar a:hover {
+    background-color: #395b63;
+    color: fdffd3;
+  }
+  
+  /* Style the active/current link*/
+  .navbar a.active {
+    background-color: #fdffd3;
+    color: #598c98;
+  }
+  
+  /* Float the link section to the right */
+  .navbar-right {
+    float: right;
+  }
+  
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .navbar-right {
+      float: none;
+    }
+  }
+
+  .poetry {
+    background-color: #ff85b4d8;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    max-width: 800px;
+    min-height: 200px;
+    text-align: center;
+    border-radius: 25px;
+    padding: 20px;
+
+    font-family: "Jocky Starline", Times, Serif;
+    font-size: 80px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.104);
+  }
+
+  .projects {
+    
+  }
