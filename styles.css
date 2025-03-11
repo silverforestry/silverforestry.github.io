@@ -1,58 +1,97 @@
 /* fonts */
 body {
     margin: 0;
-    background-color: #fdffd3;
+    background-color: #fefff0;
+}
+
+header {
+    background-color: #598c98;
+}
+
+.spacer {
+    height: 100px;
+}
+
+button {
+    align-self: center;
 }
 
 .home-heading {
     margin: 0;
-    background-color: #395b63;
-    color: #fdffd3;
+    background: #598c98;
+    background: linear-gradient(180deg, rgba(54,74,79,1) 0%, rgba(35,89,101,1) 35%, rgba(89,140,152,1) 100%);
+    color: #fbffa7;
     min-height: 100vh;
     padding: 0px;
 }
 
 h1 {
-    font-family: "Crystal Radio Kit", Verdana, Tahoma;
+    font-family: "Crystal Radio Kit",  Verdana, Tahoma;
     margin: 0;
     text-align: center;
     padding: 10px 5px;
+    font-size: 80px;
 }
 
 p {
     margin: 0;
     text-align: center;
     padding: 15px 15px;
+    font-family: "Retro Gaming", Verdana, Tahoma;
+    color: #364a4f;
+}
+
+h3 {
+    margin: 0;
+    text-align: center;
+    padding: 15px 15px;
+    font-family: "Retro Gaming", Times, Serif;
+    color: #fbffa7;
+    font-size: 20px;
+}
+
+h4 {
+    margin: 0;
+    text-align: center;
+    padding: 15px 15px;
+    font-family: "Times New Roman", Times, Serif;
+    color: #598c98;
+    font-size: 30px;
 }
 
 @font-face {
     font-family: "Crystal Radio Kit";
-    src: url("fonts/Crystal\ Radio\ Kit.otf") format("opentype");
+    src: url("assets/fonts/Crystal\ Radio\ Kit.otf") format("opentype");
 }
 
 @font-face {
     font-family: "Billo";
-    src: url("fonts/BILLO___.TTF") format("truetype");
+    src: url("assets/fonts/BILLO___.TTF") format("truetype");
 }
 
 @font-face {
     font-family: "Spacetime";
-    src: url("fonts/spacetime-regular.ttf") format("truetype");
+    src: url("assets/fonts/spacetime-regular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "The Augusta";
-    src: url("fonts/The\ Augusta.otf") format("opentype");
+    src: url("assets/fonts/The\ Augusta.otf") format("opentype");
 }
 
 @font-face {
     font-family: "Cursive";
-    src: url("fonts/cursive.ttf") format("truetype");
+    src: url("assets/fonts/cursive.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Jocky Starline";
-    src: url("fonts/Jocky\ Starline.ttf") format("truetype");
+    src: url("assets/fonts/Jocky\ Starline.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Retro Gaming";
+    src: url("assets/fonts/Retro\ Gaming.ttf") format("truetype");
 }
 
 /* font families */
@@ -62,11 +101,11 @@ p {
 }
 
 .crystal-radio-kit {
-    font-family: "Crystal Radio Kit", Times, Serif;
+    font-family: "Crystal Radio Kit",  Verdana, Tahoma;
 }
 
 .spacetime {
-    font-family: "Spacetime", Times, Serif;
+    font-family: "Spacetime", Verdana, Tahoma;
 }
 
 .augusta {
@@ -74,11 +113,15 @@ p {
 }
 
 .cursive {
-    font-family: "Cursive", Times, Serif;
+    font-family: "Cursive", Verdana, Tahoma;
 }
 
 .starline {
-    font-family: "Jocky Starline", Verdana, Tahomas;
+    font-family: "Jocky Starline", Verdana, Tahoma;
+}
+
+.retro-gaming {
+    font-family: "Retro Gaming", Verdana, Tahoma;
 }
 
 /* basic header with shadow and some padding */
@@ -88,7 +131,7 @@ p {
     overflow: hidden;
     background-color: #598c98;
     padding: 20px 10px;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.203);
+    /* box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.203); */
 }
 
 
@@ -109,7 +152,7 @@ p {
     font-family: "The Augusta", Verdana, Tahoma;
     font-size: 40px;
     font-weight: normal;
-    color: #fdffd3;
+    color: #fbffa7;
   }
   
   /* Change the background color on mouse-over */
@@ -120,7 +163,7 @@ p {
   
   /* Style the active/current link*/
   .navbar a.active {
-    background-color: #fdffd3;
+    background-color: #fbffa7;
     color: #598c98;
   }
   
@@ -141,22 +184,12 @@ p {
     }
   }
 
-  .poetry {
-    background-color: #ff85b4d8;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    max-width: 800px;
-    min-height: 200px;
+  .subheader {
     text-align: center;
-    border-radius: 25px;
-    padding: 20px;
-
-    font-family: "Jocky Starline", Times, Serif;
-    font-size: 80px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.104);
+    color: #598c98;
   }
 
-  .projects {
-    
+  h2 {
+    font-family: "Jocky Starline", Verdana, Tahoma;
+    font-size: 80px;
   }
