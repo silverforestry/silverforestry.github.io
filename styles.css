@@ -1,7 +1,7 @@
 /* fonts */
 body {
     margin: 0;
-    background-color: #fefff0;
+    background-color: white;
 }
 
 header {
@@ -20,8 +20,8 @@ button {
     margin: 0;
     background: #598c98;
     background: linear-gradient(180deg, rgba(54,74,79,1) 0%, rgba(35,89,101,1) 35%, rgba(89,140,152,1) 100%);
-    color: #fbffa7;
-    min-height: 100vh;
+    color: white;
+    min-height: 120vh;
     padding: 0px;
 }
 
@@ -46,7 +46,7 @@ h3 {
     text-align: center;
     padding: 15px 15px;
     font-family: "Retro Gaming", Times, Serif;
-    color: #fbffa7;
+    color: white;
     font-size: 20px;
 }
 
@@ -131,7 +131,7 @@ h4 {
     overflow: hidden;
     background-color: #598c98;
     padding: 20px 10px;
-    /* box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.203); */
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.203);
 }
 
 
@@ -192,4 +192,28 @@ h4 {
   h2 {
     font-family: "Jocky Starline", Verdana, Tahoma;
     font-size: 80px;
+  }
+
+  .poem {
+    margin: auto;
+    margin-top: 20px;
+    padding: 12px;
+    max-width: 800px;
+    min-height: 100px;
+    background-color: #598c98;
+    border-radius: 15px;
+  }
+
+  .poem h1 {
+    text-align: center;
+    font-family: "Billo", Times, Serif;
+    font-size: 30px;
+    color:#fbffa7
+  }
+
+  .poem p {
+    text-align: center;
+    font-family: "Retro Gaming", verdana, Tahoma;
+    font-size: 16px;
+    color: white;
   }
